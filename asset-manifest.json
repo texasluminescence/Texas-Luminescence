@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Texas-Luminescence/static/css/main.7e47c288.css",
-    "main.js": "/Texas-Luminescence/static/js/main.e976edfd.js",
+    "main.js": "/Texas-Luminescence/static/js/main.90d5c42d.js",
     "static/js/453.bb828c5d.chunk.js": "/Texas-Luminescence/static/js/453.bb828c5d.chunk.js",
     "static/media/dashboard_design.png": "/Texas-Luminescence/static/media/dashboard_design.2221518e926e0d86c10f.png",
     "static/media/officers.png": "/Texas-Luminescence/static/media/officers.74dedf581e09d5fc9ddf.png",
@@ -12,11 +12,11 @@
     "static/media/medimatch.png": "/Texas-Luminescence/static/media/medimatch.b2901d3aca2c97439849.png",
     "index.html": "/Texas-Luminescence/index.html",
     "main.7e47c288.css.map": "/Texas-Luminescence/static/css/main.7e47c288.css.map",
-    "main.e976edfd.js.map": "/Texas-Luminescence/static/js/main.e976edfd.js.map",
+    "main.90d5c42d.js.map": "/Texas-Luminescence/static/js/main.90d5c42d.js.map",
     "453.bb828c5d.chunk.js.map": "/Texas-Luminescence/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e47c288.css",
-    "static/js/main.e976edfd.js"
+    "static/js/main.90d5c42d.js"
   ]
 }
