@@ -1,0 +1,16 @@
+.dashboard-container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding-top: 60px;
+  }
+  
+  .dashboard-image {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    object-fit: contain;
+  }

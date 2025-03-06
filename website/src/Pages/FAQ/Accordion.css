@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  .faq-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 40px 0;
+  }
+  
+  .section-header {
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px 0 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .accordion-item {
+    margin-bottom: 10px;
+  }
+  
+  .accordion {
+    background-color: #d4a55d;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordion:hover, .active {
+    background-color: #c0914d;
+  }
+  
+  .accordion-text {
+    font-weight: bold;
+  }
+  
+  .icon {
+    font-size: 22px;
+  }
+  
+  .panel {
+    padding: 15px 18px;
+    background-color: #f5f5f5;
+    text-align: left;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .panel p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  

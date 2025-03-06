@@ -1,0 +1,200 @@
+.tg {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .tg td,
+  .tg th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 18px;
+  }
+  
+  .tg th {
+    background-color: #eaab5a;
+    color: #efefef;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .tg td {
+    text-align: center;
+  }
+  
+  .tg tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tg tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .button {
+    background-color: #ffffff;
+    border: 2px solid #333333;
+    color: #333333;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #eaab5a;
+    color: #ffffff;
+    border-color: #eaab5a;
+  }
+  
+  .section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section p {
+    font-size: 18px;
+    color: #555555;
+    text-align: left;
+    margin: 0;
+  }
+  
+  .section h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .link {
+    color: #eaab5a;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .carousel {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 1s ease;
+  }
+  
+  .carousel-image {
+    min-width: 100%;
+    position: relative;
+    display: none;
+  }
+  
+  .carousel-image.active {
+    display: block;
+  }
+  
+  .carousel-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-text {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+  }
+  
+  .carousel-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    color: #333333;
+    font-size: 36px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .nav-button:hover {
+    color: #eaab5a;
+  }
+  
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 0 20px;
+  }
+  
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active {
+    background-color: #717171;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 2px solid black;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .tg-container {
+      overflow-x: auto;
+    }
+  
+    .tg {
+      width: 90%;
+      padding: 0 5%;
+      box-sizing: border-box;
+    }
+  
+    .tg td,
+    .tg th,
+    .button,
+    .section p,
+    .carousel-text {
+      font-size: 16px;
+    }
+  }
+  
