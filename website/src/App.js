@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from './Components/NavBar';
 import Home from "./Pages/Home/home";
 import Accordion from "./Pages/FAQ/faq";
@@ -11,7 +11,7 @@ import RecruitmentPage from './Pages/Recruitment/recruitment';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
@@ -20,7 +20,7 @@ export default function App() {
         <Route path="recruitment" element={<RecruitmentPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
