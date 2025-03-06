@@ -1,0 +1,56 @@
+.resume-guide {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .guide-section {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .guide-section:hover {
+    transform: translateY(-3px);
+  }
+  
+  h2 {
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+  }
+  
+  .button a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .button:hover {
+    background-color: #eaab5a;
+    color: #fff;
+  }
+  
+  p {
+    margin: 10px 0;
+  }

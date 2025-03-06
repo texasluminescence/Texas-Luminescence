@@ -8,14 +8,14 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <img src={luminescenceLogo} alt="Texas Luminescence Logo" className="logo" />
-        <Link to="/" className="navbar-title">Texas Luminescence</Link> {/* Link to home page */}
+        <Link to="/" className="nav-title">Texas Luminescence</Link>
       </div>
       <ul className="nav-links">
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/recruitment">Recruitment</a></li>
-        <li><a href="/resources">Resources</a></li>
-        <li><a href="/calendar">Calendar</a></li>
-        <li><a href="/faq">FAQs</a></li>
+        <li><Link to="projects">Projects</Link></li>
+        <li><Link to="recruitment">Recruitment</Link></li>
+        <li><Link to="resources">Resources</Link></li>
+        {/*<li><Link to="calendar">Calendar</Link></li>*/}
+        <li><Link to="faq">FAQs</Link></li>
       </ul>
       <button className="interest-form">Interest Form</button>
     </nav>

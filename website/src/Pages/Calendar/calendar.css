@@ -1,0 +1,40 @@
+.calendar-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-item {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .event-item:hover {
+    transform: translateY(-2px);
+  }
+  
+  .event-item h2 {
+    margin: 0 0 10px;
+    color: #007bff;
+    font-size: 1.2em;
+  }
+  
+  .event-item p {
+    margin: 5px 0;
+    color: #555;
+  }
