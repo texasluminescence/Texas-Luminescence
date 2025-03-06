@@ -30,7 +30,7 @@ const OfficerBoard = () => {
       name: 'ABBY KREMER',
       role: 'President',
       major: 'ELECTRICAL AND COMPUTING ENGINEERING',
-      imageSrc: 'http://texasluminescence.org/wp-content/uploads/2024/06/DSC_0161-scaled-e1717468666311.jpg', // Replace with actual path
+      imageSrc: require('../Assets/officer_images/abby_kremer.jpg'),
       linkedin: 'https://www.linkedin.com/in/abby-kremer/',
     },
     {
@@ -65,11 +65,11 @@ const OfficerBoard = () => {
 
   const chairs = [
     {
-      name: 'CAMERON KETTLER',
+      name: 'ASHI SHARMA',
       role: 'Social Events Chair',
-      major: 'ELECTRICAL AND COMPUTING ENGINEERING',
-      imageSrc: 'http://texasluminescence.org/wp-content/uploads/2024/06/DSC_0161-scaled-e1717468666311.jpg',
-      linkedin: 'https://www.linkedin.com/in/cameron-kettler/',
+      major: 'COMPUTER SCIENCE',
+      imageSrc: require('../Assets/officer_images/ashi_sharma.jpg'),
+      linkedin: 'https://www.linkedin.com/in/ashi-sharma/',
     },
     {
       name: 'CARINE HARB',
