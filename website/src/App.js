@@ -21,7 +21,6 @@ export default function App() {
         <Route path="projects" element={<ProjectCards />} />
         <Route path="recruitment" element={<RecruitmentPage />} />
         <Route path="resources" element={<Resources />} />
-        <Route path="calendar" element={<Calendar />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </HashRouter>

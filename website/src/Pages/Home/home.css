@@ -1,16 +1,352 @@
-.dashboard-container {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    padding-top: 60px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* App Container */
+.app-container {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+/* Logo Section */
+.logo-container {
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.glow-circle {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  background-color: #facc15;
+  border-radius: 50%;
+  filter: blur(20px);
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  z-index: 1;
+}
+
+.logo-line {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 8px 0;
+}
+
+/* Mission Section */
+.mission-container {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.mission-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.mission-text {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #666;
+}
+
+/* Departments Section */
+.departments-container {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.departments-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.departments-grid {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.department-card {
+  width: 320px;
+  padding: 24px;
+  text-align: center;
+}
+
+.department-icon {
+  font-size: 24px;
+}
+
+.department-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.department-description {
+  color: #666;
+  margin-top: 8px;
+}
+
+/* Why Join Section */
+.why-join-container {
+  padding: 40px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.why-join-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .why-join-content {
+    flex-direction: row;
   }
-  
-  .dashboard-image {
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
-    object-fit: contain;
-  }
+}
+
+.why-join-text {
+  flex: 1;
+}
+
+.why-join-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.why-join-list {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.why-join-list li {
+  margin-bottom: 8px;
+}
+
+.why-join-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.interest-btn {
+  background-color: #ca8a04;
+  color: #fff;
+}
+
+.contact-btn {
+  background-color: #ca8a04;
+  color: #fff;
+}
+
+.why-join-image {
+  flex: 1;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 256px;
+  background-color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.officer-board-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Officer Board Section */
+/* Officer Board Section */
+.officer-board-container {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.officer-board-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+
+.officer-grid {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Officer Card Styles */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  line-height: 18px;
+  padding-top: 8%;
+}
+
+.card-image {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.card-name {
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.card-details {
+  font-size: 18px;
+  padding-right: 8%;
+  color: #666;
+}
+
+.card-spacer {
+  margin: 24px 0;
+}
+
+.card-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  background-color: #000; /* Adjust color as needed */
+}
+
+.card-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.card-button i {
+  font-size: 28px;
+}
+
+.card-button:hover,
+.card-button a:hover {
+  opacity: 0.7;
+}
+
+/* Footer Section */
+.footer-container {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.newsletter-container {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #fff;
+  color: #000;
+}
+
+.newsletter-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.newsletter-text {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.newsletter-btn {
+  background-color: #ca8a04;
+  color: #fff;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  width: 192px;
+}
+
+.footer-logo {
+  width: 64px;
+  height: 64px;
+  background-color: #ccc;
+  margin-bottom: 16px;
+}
+
+.footer-brand {
+  font-size: 16px;
+}
+
+.footer-section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+}
