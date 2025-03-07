@@ -2,16 +2,16 @@ import React, { useState, useEffect } from "react";
 import "./recruitment.css";
 import "../../Styles/pages.css"
 
-import Image1 from "../../Assets/carousel_images/officers.png";
-import Image2 from "../../Assets/carousel_images/officers.png";
-import Image3 from "../../Assets/carousel_images/officers.png";
-import Image4 from "../../Assets/carousel_images/officers.png";
-import Image5 from "../../Assets/carousel_images/officers.png";
-import Image6 from "../../Assets/carousel_images/officers.png";
-import Image7 from "../../Assets/carousel_images/officers.png";
-import Image8 from "../../Assets/carousel_images/officers.png";
-import Image9 from "../../Assets/carousel_images/officers.png";
-import Image10 from "../../Assets/carousel_images/officers.png";
+import Image1 from "../../Assets/carousel_images/profit_share_group.JPEG";
+import Image2 from "../../Assets/carousel_images/stem_girl_day.JPEG";
+import Image3 from "../../Assets/carousel_images/google_guest_speaker_group.JPEG";
+import Image4 from "../../Assets/carousel_images/officer_board_hookem.JPG";
+import Image5 from "../../Assets/carousel_images/ut_smartplanner_midsem.JPEG";
+import Image6 from "../../Assets/carousel_images/zilker_social_group.JPG";
+import Image7 from "../../Assets/carousel_images/musicmate_midsem.JPEG";
+import Image8 from "../../Assets/carousel_images/pickleball_social.jpg";
+import Image9 from "../../Assets/carousel_images/website_midsem.JPEG";
+import Image10 from "../../Assets/carousel_images/jenis_social.JPEG";
 
 const RecruitmentPage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

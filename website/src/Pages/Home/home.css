@@ -176,7 +176,13 @@ body {
 }
 
 .why-join-image {
-  flex: 1;
+  flex: 1
+}
+
+.why-join-image img {
+  width: 100%;  /* Ensures the image is responsive */
+  height: 100%; /* Makes sure it fits within the container */
+  object-fit: cover; /* Ensures it doesn't stretch but fills the space */
 }
 
 .image-placeholder {
