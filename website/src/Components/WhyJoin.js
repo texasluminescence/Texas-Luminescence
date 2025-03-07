@@ -17,9 +17,7 @@ const WhyJoin = () => {
         </div>
         <div className="why-join-image">
         <div className="image-placeholder">
-            <img 
-                src={require(`../Assets/carousel_images/officer_board_hookem.JPG`)}
-            />
+            <img src="/carousel_images/officer_board_hookem.JPG" alt="Officer Board Hookem" />
         </div>
         </div>
       </div>

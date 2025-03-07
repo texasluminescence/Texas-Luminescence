@@ -2,17 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./recruitment.css";
 import "../../Styles/pages.css"
 
-import Image1 from "../../Assets/carousel_images/profit_share_group.JPEG";
-import Image2 from "../../Assets/carousel_images/stem_girl_day.JPEG";
-import Image3 from "../../Assets/carousel_images/google_guest_speaker_group.JPEG";
-import Image4 from "../../Assets/carousel_images/officer_board_hookem.JPG";
-import Image5 from "../../Assets/carousel_images/ut_smartplanner_midsem.JPEG";
-import Image6 from "../../Assets/carousel_images/zilker_social_group.JPG";
-import Image7 from "../../Assets/carousel_images/musicmate_midsem.JPEG";
-import Image8 from "../../Assets/carousel_images/pickleball_social.jpg";
-import Image9 from "../../Assets/carousel_images/website_midsem.JPEG";
-import Image10 from "../../Assets/carousel_images/jenis_social.JPEG";
-
 const RecruitmentPage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -31,56 +20,57 @@ const RecruitmentPage = () => {
 
   const carouselImages = [
     {
-      src: Image1,
+      src: "/carousel_images/profit_share_group.JPEG",
       alt: "Image 1",
       text: "Willingness to work together, share knowledge, and support fellow members"
     },
     {
-      src: Image2,
+      src: "/carousel_images/stem_girl_day.JPEG",
       alt: "Image 2",
       text: "Respect for different viewpoints and a commitment to creating an inclusive environment"
     },
     {
-      src: Image3,
+      src: "/carousel_images/google_guest_speaker_group.JPEG",
       alt: "Image 3",
       text: "Strong communication skills and desire to learn and explore new concepts, technologies, and methodologies"
     },
     {
-      src: Image4,
+      src: "/carousel_images/officer_board_hookem.JPG",
       alt: "Image 4",
       text: "Highly dedicated and motivated individuals passionate about our mission"
     },
     {
-      src: Image5,
+      src: "/carousel_images/ut_smartplanner_midsem.JPEG",
       alt: "Image 5",
       text: "A proactive approach to problem-solving and an innovative mindset"
     },
     {
-      src: Image6,
+      src: "/carousel_images/zilker_social_group.JPG",
       alt: "Image 6",
       text: "Genuine interest in artificial intelligence and machine learning"
     },
     {
-      src: Image7,
+      src: "/carousel_images/musicmate_midsem.JPEG",
       alt: "Image 7",
       text: "Effective in sharing ideas, providing feedback, and listening to others"
     },
     {
-      src: Image8,
+      src: "/carousel_images/pickleball_social.jpg",
       alt: "Image 8",
       text: "Team players who thrive in collaborative environments and value teamwork"
     },
     {
-      src: Image9,
+      src: "/carousel_images/website_midsem.JPEG",
       alt: "Image 9",
       text: "Members from diverse academic disciplines and perspectives"
     },
     {
-      src: Image10,
+      src: "/carousel_images/jenis_social.JPEG",
       alt: "Image 10",
       text: "Commitment to improving technical skills and staying updated with advancements in the field"
     }
   ];
+  
 
   useEffect(() => {
     const slideInterval = setInterval(() => {

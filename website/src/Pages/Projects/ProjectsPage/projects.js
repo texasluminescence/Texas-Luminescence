@@ -9,42 +9,42 @@ const projects = {
       title: "UT SmartPlanner",
       description:
         "UT SmartPlanner uses machine learning to create personalized course schedules, optimizing for degree progress, availability, and preferences.",
-      image: require("../../../Assets/project_images/blank_image.png"),
+      image: "/project_images/blank_image.png",
       route: "/ut-smartplanner",
     },
     {
       title: "Lie Detection using Facial Microexpressions",
       description:
         "This application detects deception in real-time by analyzing facial features and microexpressions using machine learning.",
-      image: require("../../../Assets/project_images/blank_image.png"),
+      image: "/project_images/blank_image.png",
       route: "/lie-detection",
     },
     {
       title: "MediMatch",
       description:
         "MediMatch is a health companion mobile app for symptom assessment, offering tailored illness insights and medication suggestions.",
-      image: require("../../../Assets/project_images/medimatch.png"),
+      image: "/project_images/medimatch.png",
       route: "/medimatch",
     },
     {
       title: "JobSense",
       description:
         "JobSense analyzes and visualizes job market trends to help job seekers and businesses align their skills and hiring strategies.",
-      image: require("../../../Assets/project_images/job_sense.png"),
+      image: "/project_images/job_sense.png",
       route: "/job-market-trend-analyzer",
     },
     {
       title: "CV Revive",
       description:
         "CV Revive is an AI-driven platform that optimizes resumes for higher ATS scores, enhancing candidate-job matching and providing objective feedback for better hiring outcomes.",
-      image: require("../../../Assets/project_images/cv_revive.png"),
+      image: "/project_images/cv_revive.png",
       route: "/ai-resume-screener",
     },
     {
       title: "Stock Candlestick Predictor",
       description:
         "A web application using AI to analyze stock price movements and provide predictions based on candlestick patterns.",
-      image: require("../../../Assets/project_images/blank_image.png"),
+      image: "/project_images/blank_image.png",
       route: "/stock-candlestick-predictor",
     },
   ],
@@ -53,28 +53,28 @@ const projects = {
       title: "Dermetrics",
       description:
         "A skin disease diagnostic tool featuring a TensorFlow-based machine learning model for classifying skin disorders, integrated backend functionalities, and a designed wireframe for the user interface.",
-      image: require("../../../Assets/project_images/dermetric.png"),
+      image: "/project_images/dermetric.png",
       route: "/dermetrics",
     },
     {
       title: "Journal Buddy",
       description:
         "A diary app with an NLP Assistant that tracks goals from journal entries, summarizes notes, and provides chat support. It includes Goal Buddy, Study Buddy, and Chat Buddy features.",
-      image: require("../../../Assets/project_images/journal_buddy.png"),
+      image: "/project_images/journal_buddy.png",
       route: "/journal-buddy",
     },
     {
       title: "MusicMate",
       description:
         "A mobile app where students connect based on shared music tastes. Users authenticate with university emails and can view matches' Spotify Song of the Day, recent listens, and similarity scores.",
-      image: require("../../../Assets/project_images/musicmate.png"),
+      image: "/project_images/musicmate.png",
       route: "/musicmate",
     },
     {
       title: "Website",
       description:
         "Building the Texas Luminescence site, featuring a landing page, recruitment info, department pages, FAQs, and a member portal for meeting attendance and internal updates.",
-      image: require("../../../Assets/project_images/blank_image.png"),
+      image: "/project_images/blank_image.png",
       route: "/website",
     },
   ],
