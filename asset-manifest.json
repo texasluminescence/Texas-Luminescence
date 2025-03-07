@@ -1,39 +1,15 @@
 {
   "files": {
     "main.css": "/Texas-Luminescence/static/css/main.1d26a55b.css",
-    "main.js": "/Texas-Luminescence/static/js/main.a5c43daf.js",
+    "main.js": "/Texas-Luminescence/static/js/main.1518945f.js",
     "static/js/453.bb828c5d.chunk.js": "/Texas-Luminescence/static/js/453.bb828c5d.chunk.js",
-    "static/media/officer_board_hookem.JPG": "/Texas-Luminescence/static/media/officer_board_hookem.8774070838a9c325b379.JPG",
-    "static/media/raunak_manchanda.JPG": "/Texas-Luminescence/static/media/raunak_manchanda.75f9bac812f9cda935f1.JPG",
-    "static/media/jenny_doan.JPG": "/Texas-Luminescence/static/media/jenny_doan.67d00fee9bfe0c5aa442.JPG",
-    "static/media/cash_fitzgerald.JPG": "/Texas-Luminescence/static/media/cash_fitzgerald.1cadebf8778a186e65c2.JPG",
-    "static/media/abby_kremer.JPG": "/Texas-Luminescence/static/media/abby_kremer.4a9052311b4e10467e73.JPG",
-    "static/media/carine_harb.JPG": "/Texas-Luminescence/static/media/carine_harb.ac7e72797c67dbcfa079.JPG",
-    "static/media/noor_ali.JPG": "/Texas-Luminescence/static/media/noor_ali.810b7d44624ad3830a1b.JPG",
-    "static/media/ethan_mikel.JPG": "/Texas-Luminescence/static/media/ethan_mikel.f2a141c897edc8931250.JPG",
-    "static/media/ashi_sharma.jpg": "/Texas-Luminescence/static/media/ashi_sharma.d2fa27db3c5dc1628f7f.jpg",
-    "static/media/pickleball_social.jpg": "/Texas-Luminescence/static/media/pickleball_social.c28f8468e7aca57975c9.jpg",
-    "static/media/zilker_social_group.JPG": "/Texas-Luminescence/static/media/zilker_social_group.e6762516b60950115f34.JPG",
-    "static/media/stem_girl_day.JPEG": "/Texas-Luminescence/static/media/stem_girl_day.e80bfd08f440642c8f3a.JPEG",
-    "static/media/profit_share_group.JPEG": "/Texas-Luminescence/static/media/profit_share_group.1cdceb01fd6f49beb6ec.JPEG",
-    "static/media/ut_smartplanner_midsem.JPEG": "/Texas-Luminescence/static/media/ut_smartplanner_midsem.6ebac1908df617b45074.JPEG",
-    "static/media/google_guest_speaker_group.JPEG": "/Texas-Luminescence/static/media/google_guest_speaker_group.7fdbb5d8798606822f91.JPEG",
-    "static/media/jenis_social.JPEG": "/Texas-Luminescence/static/media/jenis_social.c12c461deb81dbbc24f5.JPEG",
-    "static/media/musicmate_midsem.JPEG": "/Texas-Luminescence/static/media/musicmate_midsem.7981edfe4a41f2faf295.JPEG",
-    "static/media/dashboard_design.png": "/Texas-Luminescence/static/media/dashboard_design.2221518e926e0d86c10f.png",
-    "static/media/website_midsem.JPEG": "/Texas-Luminescence/static/media/website_midsem.5f4d52ac4a7c2f44c274.JPEG",
-    "static/media/luminescence_logo.jpeg": "/Texas-Luminescence/static/media/luminescence_logo.9a7fbbd7caee7192e695.jpeg",
-    "static/media/musicmate.png": "/Texas-Luminescence/static/media/musicmate.39399e291c5a17124c94.png",
-    "static/media/dermetric.png": "/Texas-Luminescence/static/media/dermetric.9f17a5e0b9abcc87434f.png",
-    "static/media/journal_buddy.png": "/Texas-Luminescence/static/media/journal_buddy.bba7d98a96217505fce2.png",
-    "static/media/medimatch.png": "/Texas-Luminescence/static/media/medimatch.b2901d3aca2c97439849.png",
     "index.html": "/Texas-Luminescence/index.html",
     "main.1d26a55b.css.map": "/Texas-Luminescence/static/css/main.1d26a55b.css.map",
-    "main.a5c43daf.js.map": "/Texas-Luminescence/static/js/main.a5c43daf.js.map",
+    "main.1518945f.js.map": "/Texas-Luminescence/static/js/main.1518945f.js.map",
     "453.bb828c5d.chunk.js.map": "/Texas-Luminescence/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d26a55b.css",
-    "static/js/main.a5c43daf.js"
+    "static/js/main.1518945f.js"
   ]
 }
