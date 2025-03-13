@@ -31,7 +31,7 @@ const projects = {
       description:
         "JobSense analyzes and visualizes job market trends to help job seekers and businesses align their skills and hiring strategies.",
       image: "/project_images/job_sense.png",
-      route: "/job-market-trend-analyzer",
+      route: "/job-sense",
     },
     {
       title: "CV Revive",
