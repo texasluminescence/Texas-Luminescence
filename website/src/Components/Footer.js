@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from "../assets/logos/luminescence_logo.jpeg"
 const Footer = () => {
   return (
     <div className="footer-container">
@@ -10,7 +10,9 @@ const Footer = () => {
       </div>
       <div className="footer-links">
         <div className="footer-section">
-          <div className="footer-logo"></div>
+          <div className="footer-logo">
+            <img src={logo} class/>
+          </div>
           <p className="footer-brand">Texas Luminescence</p>
         </div>
         <div className="footer-section">

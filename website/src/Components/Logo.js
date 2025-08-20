@@ -1,12 +1,13 @@
 import React from 'react';
+import logo from "../assets/dashboard_image/dashboard_design.png"
 
 const Logo = () => {
   return (
     <div className="logo-container">
       <img
-        src="/dashboard_image/dashboard_design.png"
+        src= {logo}
         alt="Texas Luminescence Logo"
-        className="logo-image"
+        className="logo-container"
       />
     </div>
   );

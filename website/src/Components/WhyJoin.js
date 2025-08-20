@@ -1,4 +1,5 @@
 import React from 'react';
+import img from "../assets/carousel_images/officer_board_hookem.JPG"
 
 const WhyJoin = () => {
   return (
@@ -17,7 +18,7 @@ const WhyJoin = () => {
         </div>
         <div className="why-join-image">
         <div className="image-placeholder">
-            <img src="/carousel_images/officer_board_hookem.JPG" alt="Officer Board Hookem" />
+            <img src={img} alt="Officer Board Hookem" />
         </div>
         </div>
       </div>

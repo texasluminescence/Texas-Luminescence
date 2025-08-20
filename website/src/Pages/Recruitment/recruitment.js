@@ -84,8 +84,8 @@ const RecruitmentPage = () => {
     <div>
       <h1 className="page-title">Recruitment</h1>
 
-      <p className="intro-text">
-        We are excited about your interest in Texas Luminescence! Our Spring
+      <p className="intro-text mx-5">
+        We are excited about your interest in Texas Luminescence! Our Fall
         2025 recruiting cycle is coming soon. To stay updated, check back here
         for the latest news. We look forward to connecting with you!
       </p>
@@ -139,40 +139,40 @@ const RecruitmentPage = () => {
         </table>
       </div>
 
-      <h2 className="images-heading">Qualities We Look For</h2>
-      <hr />
-      <div className="carousel">
-        <div className="carousel-images">
-          {carouselImages.map((image, index) => (
-            <div
-              className={`carousel-image ${
-                currentSlide === index ? "active" : ""
-              }`}
-              key={index}
-            >
-              <img src={image.src} alt={image.alt} />
-              <div className="carousel-text">{image.text}</div>
-            </div>
-          ))}
-        </div>
-        <div className="carousel-nav">
-          <button className="nav-button" onClick={() => moveCarousel(-1)}>
-            &#10094;
-          </button>
-          <div className="carousel-dots">
-            {carouselImages.map((_, index) => (
-              <span
+      <h2 className="mx-5">Qualities We Look For</h2>
+        <div className="carousel">
+          <div className="carousel-images">
+            {carouselImages.map((image, index) => (
+              <div
+                className={`carousel-image ${
+                  currentSlide === index ? "active" : ""
+                }`}
                 key={index}
-                className={`dot ${currentSlide === index ? "active" : ""}`}
-                onClick={() => setSlide(index)}
-              ></span>
+              >
+                <img src={image.src} alt={image.alt} />
+                <div className="italic text-sm mx-5">{image.text}</div>
+              </div>
             ))}
           </div>
-          <button className="nav-button" onClick={() => moveCarousel(1)}>
-            &#10095;
-          </button>
+          <div className="carousel-nav">
+            <button className="nav-button" onClick={() => moveCarousel(-1)}>
+              &#10094;
+            </button>
+            <div className="carousel-dots">
+              {carouselImages.map((_, index) => (
+                <span
+                  key={index}
+                  className={`dot ${currentSlide === index ? "active" : ""}`}
+                  onClick={() => setSlide(index)}
+                ></span>
+              ))}
+            </div>
+            <button className="nav-button" onClick={() => moveCarousel(1)}>
+              &#10095;
+            </button>
+          </div>
         </div>
-      </div>
+    <hr className="mx-5"/>
     </div>
   );
 };
