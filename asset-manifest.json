@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Texas-Luminescence/static/css/main.1580ebb4.css",
-    "main.js": "/Texas-Luminescence/static/js/main.057aef4d.js",
-    "static/js/453.dff87da4.chunk.js": "/Texas-Luminescence/static/js/453.dff87da4.chunk.js",
-    "static/media/officer_board_hookem.JPG": "/Texas-Luminescence/static/media/officer_board_hookem.8774070838a9c325b379.JPG",
-    "static/media/raunak_manchanda.JPG": "/Texas-Luminescence/static/media/raunak_manchanda.75f9bac812f9cda935f1.JPG",
-    "static/media/jenny_doan.JPG": "/Texas-Luminescence/static/media/jenny_doan.67d00fee9bfe0c5aa442.JPG",
-    "static/media/cash_fitzgerald.JPG": "/Texas-Luminescence/static/media/cash_fitzgerald.1cadebf8778a186e65c2.JPG",
-    "static/media/abby_kremer.JPG": "/Texas-Luminescence/static/media/abby_kremer.4a9052311b4e10467e73.JPG",
-    "static/media/carine_harb.JPG": "/Texas-Luminescence/static/media/carine_harb.ac7e72797c67dbcfa079.JPG",
-    "static/media/noor_ali.JPG": "/Texas-Luminescence/static/media/noor_ali.810b7d44624ad3830a1b.JPG",
-    "static/media/ethan_mikel.JPG": "/Texas-Luminescence/static/media/ethan_mikel.f2a141c897edc8931250.JPG",
-    "static/media/ashi_sharma.jpg": "/Texas-Luminescence/static/media/ashi_sharma.d2fa27db3c5dc1628f7f.jpg",
-    "static/media/dashboard_design.png": "/Texas-Luminescence/static/media/dashboard_design.2221518e926e0d86c10f.png",
-    "static/media/luminescence_logo.jpeg": "/Texas-Luminescence/static/media/luminescence_logo.9a7fbbd7caee7192e695.jpeg",
-    "index.html": "/Texas-Luminescence/index.html",
-    "main.1580ebb4.css.map": "/Texas-Luminescence/static/css/main.1580ebb4.css.map",
-    "main.057aef4d.js.map": "/Texas-Luminescence/static/js/main.057aef4d.js.map",
-    "453.dff87da4.chunk.js.map": "/Texas-Luminescence/static/js/453.dff87da4.chunk.js.map"
+    "main.css": "/static/css/main.09c1c01f.css",
+    "main.js": "/static/js/main.65555c3e.js",
+    "static/js/453.dff87da4.chunk.js": "/static/js/453.dff87da4.chunk.js",
+    "static/media/officer_board_hookem.JPG": "/static/media/officer_board_hookem.8774070838a9c325b379.JPG",
+    "static/media/raunak_manchanda.JPG": "/static/media/raunak_manchanda.75f9bac812f9cda935f1.JPG",
+    "static/media/jenny_doan.JPG": "/static/media/jenny_doan.67d00fee9bfe0c5aa442.JPG",
+    "static/media/cash_fitzgerald.JPG": "/static/media/cash_fitzgerald.1cadebf8778a186e65c2.JPG",
+    "static/media/abby_kremer.JPG": "/static/media/abby_kremer.4a9052311b4e10467e73.JPG",
+    "static/media/carine_harb.JPG": "/static/media/carine_harb.ac7e72797c67dbcfa079.JPG",
+    "static/media/noor_ali.JPG": "/static/media/noor_ali.810b7d44624ad3830a1b.JPG",
+    "static/media/ethan_mikel.JPG": "/static/media/ethan_mikel.f2a141c897edc8931250.JPG",
+    "static/media/ashi_sharma.jpg": "/static/media/ashi_sharma.d2fa27db3c5dc1628f7f.jpg",
+    "static/media/dashboard_design.png": "/static/media/dashboard_design.2221518e926e0d86c10f.png",
+    "static/media/luminescence_logo.jpeg": "/static/media/luminescence_logo.9a7fbbd7caee7192e695.jpeg",
+    "index.html": "/index.html",
+    "main.09c1c01f.css.map": "/static/css/main.09c1c01f.css.map",
+    "main.65555c3e.js.map": "/static/js/main.65555c3e.js.map",
+    "453.dff87da4.chunk.js.map": "/static/js/453.dff87da4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1580ebb4.css",
-    "static/js/main.057aef4d.js"
+    "static/css/main.09c1c01f.css",
+    "static/js/main.65555c3e.js"
   ]
 }
